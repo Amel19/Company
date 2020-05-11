@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Prompt;
+    src: url(../Fonts/Prompt-Regular.woff);
+  }
+  @font-face {
+    font-family: Mukta;
+    src: url(../Fonts/Mukta-Regular.woff);
+  }
+header h1 {
+    background-color: #2e3e57;
+    text-align: center;
+    color: #ccc;
+    font-family: 'Prompt';
+}
+header #home {
+    padding: 5px 0;
+}
+header #home a {
+    display: block;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    padding: 5px 0;
+    border-radius: 5px;
+    font-family:'Mukta';
+    color: #ccc;
+    background-color: #314463;
+}
+header p{
+    text-align: center;
+    font-family:'Mukta';
+    color: #ccc;
+    background-color: #314463;
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Mukta;
+    src: url(../Fonts/Mukta-Regular.woff);
+  }
+  @font-face {
+    font-family: Merriweather Sans;
+    src: url(../Fonts/MerriweatherSans-Regular.woff);
+  }
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #4a34b5, #5e2aa4, #6a1f94, #711583, #740a74);
+}
+#tableWrapper {
+    overflow-x: auto;
+}
+main #tableWrapper table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 5px;
+  overflow-x: auto;
+  width: 98%;
+  margin:3% auto;
+  white-space: nowrap;
+}
+#tableWrapper table thead {
+    background-color: black;
+    color: #fff;
+    text-align: left;
+}
+#tableWrapper table thead th {
+    padding: 15px 10px;
+    font-family: 'Merriweather Sans';
+    color: #ccc;
+}
+#tableWrapper table td{
+    text-align: left;
+    padding: 10px;
+    font-family:'Mukta';
+}
+#tableWrapper table tr:nth-child(even) {
+    background-color: #f2f2f2
+  }

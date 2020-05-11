@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Mukta;
+    src: url(../Fonts/Mukta-Regular.woff);
+  }
+footer {
+    margin-top: 2%;
+    padding: 3% 0;
+    background-color: #2e3e57;
+}
+footer a{
+    display: block;
+    width: 30%;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #ccc;
+    padding: 1% 0;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    font-family:'Mukta';
+}

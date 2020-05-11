@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Merriweather Sans;
+    src: url(../Fonts/MerriweatherSans-Regular.woff);
+  }
+  @font-face {
+    font-family: Mukta;
+    src: url(../Fonts/Mukta-Regular.woff);
+  }
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #4a34b5, #5e2aa4, #6a1f94, #711583, #740a74);
+}
+main .info {
+    display: flex;
+    align-items: baseline;
+    background-color: rgb(212, 205, 205);
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    transition: 200ms ease-in-out;
+    font-family: 'Merriweather Sans';
+}
+main .info:hover {
+    cursor: pointer;
+    background-color: rgb(46, 43, 43);
+    color: #ccc;
+}
+main .info p, main .info i {
+    width: 100%;
+}
+main .info p {
+    text-indent: 10px;
+}
+main .info  i {
+    text-align: right;
+    padding: 0 10px;
+}
+main .sadrzaj table {
+    border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow-x: auto;
+  width: 70%;
+  margin:3% auto;
+  white-space: nowrap;
+}
+main .sadrzaj table thead {
+    background-color: black;
+    color: #fff;
+    text-align: left;
+}
+main .sadrzaj table thead th {
+    padding: 15px 10px;
+    font-family: 'Merriweather Sans';
+    color: #ccc;
+}
+main .sadrzaj table td{
+    text-align: left;
+    padding: 10px;
+    font-family:'Mukta';
+}
+main .sadrzaj table tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+main .sadrzaj #ostaloInfo {
+    border: 1px dashed black;
+    width: 70%;
+    margin: auto;
+    text-indent: 2%;
+    font-family: 'Merriweather Sans';
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+main .sadrzaj #ostaloInfo p span.color {
+    color: red;
+}

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Mukta;
+    src: url(../Fonts/Mukta-Regular.woff);
+  }
+  @font-face {
+    font-family: Prompt;
+    src: url(../Fonts/Prompt-Regular.woff);
+  }
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #4a34b5, #5e2aa4, #6a1f94, #711583, #740a74);
+}
+header {
+    background-color: #2e3e57;
+    text-align: center;
+    color: #ccc;
+    font-family: 'Prompt';
+}
+main p {
+    background-color: #ccc;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Mukta';
+
+}
+main ul {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+main ul li{
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+main ul li a {
+    text-decoration: none;
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Mukta';
+    background-color: #2e3e57;
+    color: #ccc;
+    transition: 250ms ease-in-out;
+}
+main ul li a:hover {
+    opacity: 0.9;
+}
